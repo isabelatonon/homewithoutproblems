@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: homewproblems_development
+  pool: 5
+  username: locoworks
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: homewproblems_test
+  pool: 5
+  username: locoworks
+  password:
